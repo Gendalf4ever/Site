@@ -39,6 +39,9 @@ box-sizing: border-box;
 .intro{
     width: 100%;
 }
+.registrationContainer{
+    width: 100%;
+}
 /* Border to quest title */
 .bordered-box{
     border-width:1;
@@ -68,5 +71,13 @@ box-sizing: border-box;
   }
 
   .registration{
-
+    background: #fcb4f0;
+    color: #fff;
+    font-size: 15px;
+    transition: background-color 0.3s;
+    border-radius: 0;
+    /* Размер Поля */
+    padding: 70px 50px 70px 50px;
+    font-weight: 600;
+    border-radius: 10px;
   }
