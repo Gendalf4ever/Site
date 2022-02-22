@@ -6,7 +6,15 @@
 
 <body style='margin : 0px; overflow: scroll;'>
   <a-scene embedded arjs>
-  <a-asset-item id="Sten.obj" src="Assets/models/Sten.obj"></a-asset-item>
+  < <a-assets timeout="1000">
+    <!-- Declare assets here. These are things like images or 3D models. -->    
+    
+    <!-- Example of how to declare a 3D model asset. -->
+    <a-asset-item id="Sten-obj" src="Sten.obj"></a-asset-item preload="auto">
+    <!-- Example of how to declare a skin for a 3D model asset. -->
+    <!--<a-asset-item id="3DModel-mtl" src="3DModel.mtl"></a-asset-item>-->
+  
+  </a-assets>
 
   
     <a-marker-camera preset='hiro'></a-marker-camera>
