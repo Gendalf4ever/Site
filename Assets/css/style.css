@@ -28,15 +28,18 @@ box-sizing: border-box;
    
   }
 
-  .say-hi-button {
+  .answerbutton{
+      /* Отступ */
+    margin: 0 20px; 
     padding: 25px 50px 25px 50px;
     border-radius: 4px;
     border: none;
-    background: white;
+    background: green;
     color: black;
     width: 4em;
     height: 2em;
   }
+
 /* Button */
 .button {
     background: #ff7300;
