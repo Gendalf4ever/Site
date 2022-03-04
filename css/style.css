@@ -1,0 +1,160 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 15px;
+   line-height: 1.6;
+   color: #333;
+}
+
+/* header*/
+
+.header {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header-inner{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.header-inner__item__phone {
+    color: #949494;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.navbar{
+    font-size: 14px;
+}
+.navbar-links{
+    flex-grow: 1;
+}
+.navbar-links__link:hover {
+    color: red;
+}
+.navbar-links__link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1px;
+    color:black;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+.intro{
+    display: flex;
+    align-items: center;
+}
+/* Button */
+.intro-augmentedReality{
+    display: flex;
+    flex-grow: 3;
+}
+.intro-augmentedReality-button {
+    background: #ff7300;
+    font-size: 15px;
+    transition: background-color 0.3s;
+    /* Размер кнопки */
+    padding: 25px 50px 25px 50px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.intro-augmentedReality-button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Button Highlited */
+
+.intro-augmentedReality-button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Border to quest title */
+.hero-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hero-item{
+    flex-grow: 2;
+    width: 400px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    margin: 20px 20px 20px 0;
+}
+.hero-item img {
+    max-width: 500px;
+}
+.hero-item__text{
+    margin: 0;
+}
+.arButtons {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* Положение на экране*/
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 40;
+   
+  }
+
+  .answerbutton{
+      /* Отступ */
+    margin: 0 20px; 
+    padding: 25px 50px 25px 50px;
+    border-radius: 4px;
+    border: none;
+    background: green;
+    color: black;
+    width: 4em;
+    height: 2em;
+  }
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* Intro */
+.registrationContainer{
+    width: 100%;
+}
+
+.logo:hover {
+    opacity: 0.6;
+  }
+
+  .footer-connection__email {
+    display: flex;
+    align-items: center;
+    color: #8b8b8b;
+    font-size: 13px;
+  }
+  .footer-connection__email__text {
+    text-decoration: underline;
+    margin-left: 6px;
+  }
+
+  .registration{
+    background: #fcb4f0;
+    color: #fff;
+    font-size: 15px;
+    transition: background-color 0.3s;
+    /* Размер Поля */
+    padding: 70px 50px 70px 50px;
+    font-weight: 600;
+    border-radius: 10px;
+  }

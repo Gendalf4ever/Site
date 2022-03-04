@@ -1,95 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
+    <title>Myseu</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   <header class="header">
-       <div class="container">
-           <div class = "header-inner">
-            <div class="header-item">
-                <img src="Assets/img/logo.png" alt="Лого" class="logo" />
-              </div>
-              <div class="header-item">
-                <a href="tel:+79217651274" class="phone">
-                  <img src="Assets/img/phone.png" alt="" />
-                  +7 (921) 765-12-74
+<header class="header">
+    <div class="container">
+        <div class="header-inner">
+            <div class="header-inner__item">
+                <img src="Assets/img/logo.png" alt="Лого" class="logo"/>
+            </div>
+            <div class="header-inner__item">
+                <a href="tel:+79217651274" class="header-inner__item__phone">
+                    <img src="Assets/img/phone.png" alt="icon: phone"/>
+                    <span>+7 (921) 765-12-74</span>
                 </a>
-              </div>
-              <div class = "header-item">
-                <img src="Assets/img/RuEn.png" alt="RuEn" class="RuEn" />
-              </div>
-           </div>
-
-           <nav class= "nav">
-            <a class= "nav_link" href="#">Главная</a>
-            <a class= "nav_link" href="#">Музеи</a>
-            <a class= "nav_link" href="#">Статьи</a>
-            <a class= "nav_link" href="#">Контакты</a>
-           </nav>
-       </div>
-   </header>
-   <div class="intro">
-        <div class="container">
-            <div class="item-button">
-                
-                <a href="ar.html" class="button">Тест устройства</a>
-              </div>
+            </div>
+            <div class="header-inner__item">
+                <img alt="icon: ru and en language" class="header-inner__item__language" src="Assets/img/RuEn.png"/>
+            </div>
         </div>
-   </div>
-  
-   
-
-<h1>Квесты</h1>
-<div class="bordered-box">
-    <img src="Assets/img/house.png"/>
-    Исторический квест посвящен жизни скульптора Германа
-    Брахерта, немецкого скульптора. Не разделявший взглядов нацистов, получил 
-    запрет на профессиональную и преподавательскую деятельность.
-    Скульптуры Брахерта по приказу нацистов разбивали и ликвидировали как
-    "дегенеративное искусство". Брахерт покинул 
-    Кенигсберг и стал постоянно жить в своем летнем доме в 
-    Георгенсвальде(ныне Отрадное) на берегу Балтийского моря.
+    </div>
+</header>
+<nav class="navbar">
+    <div class="container">
+        <div class="intro">
+            <div class="navbar-links">
+                <a class="navbar-links__link" href="#">Главная</a>
+                <a class="navbar-links__link" href="#">Музеи</a>
+                <a class="navbar-links__link" href="#">Статьи</a>
+                <a class="navbar-links__link" href="#">Контакты</a>
+            </div>
+            <div class="intro-augmentedReality">
+                <button class="intro-augmentedReality-button">
+                    <a href="ar.html"> Тест устройства</a>
+                </button>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="hero">
+    <div class="container">
+        <h1>Квесты</h1>
+        <div class="hero-wrapper">
+            <div class="hero-item">
+                <img alt="img: house" class="img" src="Assets/img/house.png"/>
+                <p class="hero-item__text">
+                    Исторический квест посвящен жизни скульптора Германа
+                    Брахерта, немецкого скульптора. Не разделявший взглядов нацистов, получил
+                    запрет на профессиональную и преподавательскую деятельность.
+                    Скульптуры Брахерта по приказу нацистов разбивали и ликвидировали как
+                    "дегенеративное искусство". Брахерт покинул
+                    Кенигсберг и стал постоянно жить в своем летнем доме в
+                    Георгенсвальде(ныне Отрадное) на берегу Балтийского моря.
+                </p>
+            </div>
+            <div class="hero-item">
+                <img alt="img: house" src="Assets/img/man.png"/>
+                <p class="hero-item__text">
+                    Исторический квест посвящен Видунасу, это псевдоним,
+                    настоящее имя было Вильгемас Староста. Литовскому драматургу, философу,
+                    деятелю культуры. Живя в Тильзите, Видунас возглавлял
+                    культурную жизнь литовцев Восточной Пруссии.
+                    Организовывал кружки и общества, хоры, выступал с
+                    лекциями, выпускал литовские переодические издания "Шальтинис", "Яунимас".
+                </p>
+            </div>
+            <div class="hero-item">
+                <img alt="img: men" src="Assets/img/Cathedral.png"/>
+                <p class="hero-item__text">
+                    Исторический квест посвящен И. Канту - немецкому
+                    философу и одному из центральных мыслителей эпохи Просвещения.
+                    Встесторонние и систематические работы Канта в области эпистимологии,
+                    метафизики, этики и эстетики сделали его одной из самых
+                    влиятельных фигур в западной философии Нового времени.
+                </p>
+            </div>
+            <div class="hero-item">
+                <img alt="img: house" src="Assets/img/OldHouse.png"/>
+                <p class="hero-item__text">
+                    Исторический квест посвящен немецкому писателю, эссеисту, мастеру
+                    эпического романа, лауреату Нобелевской премии по литературе (1929).
+                    Известность к Манну пришла в 1901 году, когда
+                    вышел первый роман, "Будденброки". В этом романе, за основу
+                    которого была взята история его собственного рода,
+                    Манн описал историю упадка и вырождения купеческой династии из Любека.
+                </p>
+            </div>
+        </div>
+    </div>
 </div>
-<br></br>
-<div class="bordered-box">
-    <img src="Assets/img/man.png"/>
-   Исторический квест посвящен Видунасу, это псевдоним,
-   настоящее имя было Вильгемас Староста. Литовскому драматургу, философу, 
-   деятелю культуры. Живя в Тильзите, Видунас возглавлял
-   культурную жизнь литовцев Восточной Пруссии. 
-   Организовывал кружки и общества, хоры, выступал с 
-   лекциями, выпускал литовские переодические издания "Шальтинис", "Яунимас".
-</div>
-<br></br>
-<div class="bordered-box">
-    <img src="Assets/img/Cathedral.png"/>
-  Исторический квест посвящен И. Канту - немецкому 
-  философу и одному из центральных мыслителей эпохи Просвещения. 
-Встесторонние и систематические работы Канта в области эпистимологии, 
-метафизики, этики и эстетики сделали его одной из самых 
-влиятельных фигур в западной философии Нового времени.
-</div>
-<br></br>
-<div class="bordered-box">
-    <img src="Assets/img/OldHouse.png"/>
-   Исторический квест посвящен немецкому писателю, эссеисту, мастеру 
-   эпического романа, лауреату Нобелевской премии по литературе (1929). 
-   Известность к Манну пришла в 1901 году, когда 
-   вышел первый роман, "Будденброки". В этом романе, за основу 
-   которого была взята история его собственного рода, 
-   Манн описал историю упадка и вырождения купеческой династии из Любека. 
-</div>
-
-
-
-
-<a href="mailto:mailbox@mail.ru" class="email">
-    <img src="Assets/img/email.png" alt="" />
-    <div class="email-text">mailbox@mail.ru</div>
-  </a>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-connection">
+            <a class="footer-connection__email" href="mailto:mailbox@mail.ru">
+                <img alt="img: house" src="Assets/img/phone.png"/>
+                <span class="footer-connection__email__text">mailbox@mail.ru</span>
+            </a>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
