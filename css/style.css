@@ -179,6 +179,26 @@ body {
     background-color: black;
     color: white;
 }
+
+.login-button{
+    background: #a5988d;
+    font-size: 15px;
+    transition: background-color 0.3s;
+    /* Размер кнопки */
+    padding: 15px 25px 15px 25px;
+    font-weight: 600;
+    border-radius: 10px;  
+}
+.login-button a {
+    text-decoration: none;
+    color: #fff;
+}
+/* Button Highlited */
+.login-button:hover {
+    background-color: black;
+    color: white;
+}
+
 .registrationField-item__text{
     margin: 0;
     padding: 5px;
@@ -208,4 +228,44 @@ padding: 5px;
     border: 2px solid #6c00ff;
     transform: translateX(15px);
     width: 385px;
+}
+.points{
+width: 100%;
+}
+.points-text{
+    margin: 0px;
+}
+.otherPoints{
+    width: 100%;
+}
+.reaction{
+    display: flex;
+    
+   
+    align-items:center;
+    background: #4a6cca;
+    color: #fff;
+    font-size: 15px;
+    width: 600px;
+    height: 100px;
+    transition: background-color 0.3s;
+    /* Размер Поля */
+    padding: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.reaction-text{
+    align-items: center;
+    font-size: 14px;
+}
+.reaction-photo img{
+    width: 30px;
+    height: 30px;
+}
+.reaction-name{
+    margin: 5px;
+    font-size: 14px;
+}
+.footer-text{
+    font-size:20px;
 }
