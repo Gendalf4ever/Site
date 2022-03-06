@@ -147,14 +147,39 @@ body {
     text-decoration: underline;
     margin-left: 6px;
   }
-
-  .registration{
+  /*Registration Field*/
+  .registrationField{
+    display: flex;
+    align-items:center;
     background: #fcb4f0;
     color: #fff;
     font-size: 15px;
     transition: background-color 0.3s;
     /* Размер Поля */
-    padding: 70px 50px 70px 50px;
+    padding: 25px 10px 25px 10px;
     font-weight: 600;
     border-radius: 10px;
   }
+.registrationField-button{
+    background: #a5988d;
+    font-size: 15px;
+    transition: background-color 0.3s;
+    /* Размер кнопки */
+    padding: 15px 25px 15px 25px;
+    font-weight: 600;
+    border-radius: 10px;  
+}
+.registrationField-button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Button Highlited */
+
+.registrationField-button:hover {
+    background-color: black;
+    color: white;
+}
+.registrationField-item__text{
+    margin: 0;
+}
