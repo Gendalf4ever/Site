@@ -240,8 +240,6 @@ width: 100%;
 }
 .reaction{
     display: flex;
-    
-   
     align-items:center;
     background: #4a6cca;
     color: #fff;
@@ -268,4 +266,22 @@ width: 100%;
 }
 .footer-text{
     font-size:20px;
+}
+.contacts-description{
+    font-size: 20px;
+    font-weight: bold;
+}
+.contacts-adress{
+    font-size: 14px;
+}
+.contacts-map{
+    flex-grow: 2;
+    width: 400px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    margin: 20px 20px 20px 0;
+}
+.location{
+width: 100%;
 }
