@@ -31,7 +31,9 @@ body {
     font-size: 17px;
     margin-bottom: 15px;
 }
-
+.header-inner__item__logo img{
+    width: 500px;
+}
 .navbar{
     font-size: 14px;
 }
@@ -94,7 +96,7 @@ body {
 }
 .hero-item img {
     width: 574px;
-    height: 574px;
+    height: 600px;
 }
 .hero-item__text{
     font-size: 20px;
@@ -150,6 +152,9 @@ body {
     color: #8b8b8b;
     font-size: 13px;
   }
+  .footer-text{
+      font-size: 14px;
+  }
   .footer-connection__email__text {
     text-decoration: underline;
     margin-left: 6px;
@@ -187,7 +192,6 @@ body {
     background-color: black;
     color: white;
 }
-
 .login-button{
     background: #a5988d;
     font-size: 15px;
@@ -298,4 +302,16 @@ width: 100%;
 .footer-connection__email img{
     width: 30px;
     height: 30px;
+}
+.description{
+    width: 100%;
+}
+.description-text{
+    font-size: 16px;
+}
+.description-adress-text{
+    font-size: 16px;
+}
+.footer-text{
+    font-size: 13px;
 }
