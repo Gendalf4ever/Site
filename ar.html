@@ -41,15 +41,35 @@
     width: 4em;
     height: 2em;
   }
+  .answerbutton-text{
+    margin: auto;
+    color:white;
+  }
 </style>
 <body style='margin : 0px; overflow: scroll;'>
-     <div class="arButtons">
-      <button class="answerbutton">1 answer</button>
-      <button class="answerbutton">2 answer</button>
-      <button class="answerbutton">3 answer</button>
+    <div class="arButtons">
+      <button class="answerbutton">
+        <div class="answerbutton-text">
+          1 answer
+        </div>
+      </button>
+      <button class="answerbutton">
+        <div class="answerbutton-text">
+          1 answer
+        </div>
+      </button>
+      <button class="answerbutton">
+        <div class="answerbutton-text">
+          1 answer
+        </div>
+      </button>
     </div>
     <a-scene embedded arjs>
+      <!-- Some text-->
+     
+      
       <a-entity scale=".2 .2 .2">
+        <a-text value="Hello, World!" position="0 0 0" width="3" color="white"></a-text>
         <a-entity gltf-model="assets/models/Sten.gltf" scale="-1 1 1" rotation="90 90 90">
       </a-entity>
       <a-animation attribute="rotation" begin="click" repeat="indefinite" to="0 360 0"></a-animation>
