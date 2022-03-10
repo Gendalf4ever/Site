@@ -1,0 +1,40 @@
+/* Small devices^ tablets */
+@media only screen and (max-width: 768px){
+    .wrapper{
+        width: 450px;
+    }
+    .footer{
+        width:35px;
+    }
+    .header-inner__item__logo{
+        width: 300px;
+    }
+}
+@media only screen and (max-width:480px) {
+    .wrapper{
+        max-width: 320px;
+    }
+    .header-inner__item__logo{
+        width: 100px;
+    }
+    .hero-item{
+        flex-grow: 2;
+        width: 200px;
+        border-width: 3px;
+        border-color: black;
+        border-style: solid;
+        margin: 20px 20px 20px 0;
+    }
+    .hero-item img {
+        width: 50px;
+        height: 50px;
+    }
+    .hero-item__text{
+        font-size: 15px;
+        margin: 0;
+    }
+    .hero-item__text__description{
+        font-size: 12px;
+        margin:0;
+    }
+}
