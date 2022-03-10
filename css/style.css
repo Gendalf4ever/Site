@@ -106,30 +106,7 @@ body {
     font-size: 16px;
     margin:0;
 }
-.arButtons {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    /* Положение на экране*/
-    height: 5em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 40;
-   
-  }
-  .answerbutton{
-      /* Отступ */
-    margin: 0 20px; 
-    padding: 25px 50px 25px 50px;
-    border-radius: 4px;
-    border: none;
-    background: green;
-    color: black;
-    width: 4em;
-    height: 2em;
-  }
+
 /* Container */
 .container {
     max-width: 1200px;
