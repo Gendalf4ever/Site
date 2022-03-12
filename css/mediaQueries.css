@@ -38,7 +38,15 @@
         margin:0;
     }
     .location{
-        width: 75%;
+        width: 50%;
+    }
+    .navbar-links__link{
+        display: inline-block;
+        vertical-align: top;
+        margin: 5px;
+        color:black;
+        text-decoration: none;
+        transition: color .2s linear;
     }
     .contacts-description{
         font-size: 15px;
@@ -56,4 +64,124 @@
         border-style: solid;
         margin: 20px 20px 20px 0;
     }
+  /*Registration Field*/
+  .registrationField{
+    flex-grow: 2;
+    align-items:center;
+    background: #fcb4f0;
+    color: #fff;
+    font-size: 15px;
+    width: 400px;
+    height: 300px;
+    transition: background-color 0.3s;
+    /* Размер Поля */
+    padding: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+  }
+.registrationField-button{
+    background: #a5988d;
+    font-size: 15px;
+    transition: background-color 0.3s;
+    /* Размер кнопки */
+    padding: 15px 25px 15px 25px;
+    font-weight: 600;
+    border-radius: 10px;  
+}
+.registrationField-button a {
+    text-decoration: none;
+    color: #fff;
+}
+/* Button Highlited */
+.registrationField-button:hover {
+    background-color: black;
+    color: white;
+}
+.login-button{
+    background: #a5988d;
+    font-size: 15px;
+    transition: background-color 0.3s;
+    /* Размер кнопки */
+    padding: 15px 25px 15px 25px;
+    font-weight: 600;
+    border-radius: 10px;  
+}
+.login-button a {
+    text-decoration: none;
+    color: #fff;
+}
+/* Button Highlited */
+.login-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.registrationField-item__text{
+    margin: 0;
+    padding: 5px;
+}
+.group{
+margin: 10px;
+padding: 5px;
+}
+.form-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.label{
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+.input{
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    border: radius 20px / 20px;
+    border:none;
+    padding-left: 15px;
+    font-size: 18px;
+}
+.input:focus{
+    border: 2px solid #6c00ff;
+    transform: translateX(15px);
+    width: 385px;
+}
+.points{
+width: 100%;
+}
+.points-text{
+    margin: 0px;
+}
+.otherPoints{
+    width: 100%;
+}
+.reaction{
+    display: flex;
+    align-items:center;
+    background: #4a6cca;
+    color: #fff;
+    font-size: 10px;
+    width: 400px;
+    height: 100px;
+    transition: background-color 0.3s;
+    /* Размер Поля */
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.reaction-text{
+    align-items: center;
+    font-size: 12px;
+}
+.reaction-photo img{
+    width: 30px;
+    height: 30px;
+}
+.reaction-name{
+    margin: 5px;
+    font-size: 14px;
+}
+.footer-text{
+    font-size:15px;
+}
 }
