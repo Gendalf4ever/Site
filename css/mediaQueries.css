@@ -99,11 +99,11 @@
 }
 .login-button{
     background: #a5988d;
-    font-size: 15px;
+    font-size: 10px;
     transition: background-color 0.3s;
     /* Размер кнопки */
-    padding: 15px 25px 15px 25px;
-    font-weight: 600;
+    padding: 10px 15px 10px 15px;
+    font-weight: 300;
     border-radius: 10px;  
 }
 .login-button a {
@@ -179,7 +179,7 @@ width: 100%;
 }
 .reaction-name{
     margin: 5px;
-    font-size: 14px;
+    font-size: 12px;
 }
 .footer-text{
     font-size:15px;
