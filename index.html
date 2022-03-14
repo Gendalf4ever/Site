@@ -24,7 +24,7 @@
             </div>
             <div class="header-inner__item">
                 <select class="change-lang">
-                    <option value="ru">RU</option>
+                    <option value="ru" selected>RU</option>
                     <option value="en">EN</option>
                     <option value="lit">LIT</option>
                 </select>
@@ -36,14 +36,35 @@
     <div class="container">
         <div class="intro">
             <div class="navbar-links">
-                <a class="navbar-links__link" href="index.html">Главная</a>
-                <a class="navbar-links__link" href="questDescription.html">О проекте и партнерах</a>
-                <a class="navbar-links__link" href="results.html">Результаты</a>
-                <a class="navbar-links__link" href="contacts.html">Контакты</a>
+                <a class="navbar-links__link" href="index.html">
+                        <div class="lng-main">
+                            Главная
+                        </div>
+                </a>
+                <a class="navbar-links__link" href="questDescription.html">
+                    <div class="lng-project">
+                        О проекте и партнерах
+                    </div>   
+                </a>
+                <a class="navbar-links__link" href="results.html">
+                    <div class="lng-results">
+                            Результаты
+                    </div>
+                  
+                </a>
+                <a class="navbar-links__link" href="contacts.html">
+                    <div class="lng-contacts">  
+                            Контакты
+                    </div>
+                </a>
             </div>
             <div class="intro-augmentedReality">
                 <button class="intro-augmentedReality-button">
-                    <a href="ar.html"> Тест устройства</a>
+                    <a href="ar.html"> 
+                    <dt class="lng-arButton">
+                        Тест устройства
+                    </dt>   
+                    </a>
                 </button>
             </div>
         </div>
@@ -51,42 +72,64 @@
 </nav>
 <div class="hero">
     <div class="container">
-        <h1>Квесты</h1>
+        <div class="lng-genius">
+            <h1>Квесты</h1>
+        </div>
+        <div class="lng-genius-text">
+
+        </div>
         <div class="hero-wrapper">
             <div class="hero-item">
                 <img alt="img: German" class="img" src="assets/img/German.jpeg"/>
-                <p class="hero-item__text">
+                <p class="lng-hero-item__text">
+                    <dt class="lng-brahert">
                     Скульптор Герман Брахерт
+                    </dt>
                 </p>
                 <p class="hero-item__text__description">
-                   Дом-музей Брахерта
+                    <dt class="lng-brahert-description"> Дом-музей Брахерта</dt>
                 </p>
             </div>
             <div class="hero-item">
                 <img alt="img: Vidunas" src="assets/img/Vidunas.jpeg"/>
                 <p class="hero-item__text">
-                   Философ Вильхемас Стороста
+                    <dt class="lng-vidunas">
+                        Философ Вильхемас Стороста
+                    </dt>
                 </p>
                 <p class="hero-item__text__description">
-                  Культурный центр Видунаса города Кинтай
+                    <dt class="lng-vidunas-description">
+                        Культурный центр Видунаса города Кинтай
+                    </dt>  
                  </p>
             </div>
             <div class="hero-item">
                 <img alt="img: Immanuil" src="assets/img/Immanuil.jpeg"/>
                 <p class="hero-item__text">
-                   Философ И.Кант
+                    <dt class="lng-kant">
+                     Философ И.Кант
+                    </dt>
+                   
                 </p>
                 <p class="hero-item__text__description">
-                    Кафедральный собор
+                    <dt class="lng-kant-description">
+                        Кафедральный собор
+                    </dt>
+                   
                  </p>
             </div>
             <div class="hero-item">
                 <img alt="img: Thomas" src="assets/img/Thomas.jpeg"/>
                 <p class="hero-item__text">
-                  Писатель Томас Манн
+                    <dt class="lng-thomas">
+                        Писатель Томас Манн
+                    </dt>
+                  
                 </p>
                 <p class="hero-item__text__description">
-                  Музеи Неринги
+                    <dt class="lng-thomas-description">
+                        Музеи Неринги
+                    </dt>
                  </p>
             </div>
         </div>
@@ -95,7 +138,12 @@
 <footer class="footer">
     <div class="container">
         <button class="registrationField-button">
-            <a href="results.html">Регистрация</a>
+            <a href="results.html">
+                <dt class="lng-registrationButton">
+                    Регистрация
+                </dt>
+              
+            </a>
         </button>
       
         <div class="footer-connection">
@@ -107,5 +155,7 @@
     </div>
 </footer>
 </div>
+<script src ="lang.js"></script>
+<script src ="app.js"></script>
 </body>
 </html>

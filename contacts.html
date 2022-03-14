@@ -26,7 +26,7 @@
                 </div>
                 <div class="header-inner__item">
                     <select class="change-lang">
-                        <option value="ru">RU</option>
+                        <option value="ru" selected>RU</option>
                         <option value="en">EN</option>
                         <option value="lit">LIT</option>
                     </select>
@@ -39,10 +39,27 @@
         <div class="container">
             <div class="intro">
                 <div class="navbar-links">
-                    <a class="navbar-links__link" href="index.html">Главная</a>
-                    <a class="navbar-links__link" href="questDescription.html">О проекте и партнерах</a>
-                    <a class="navbar-links__link" href="results.html">Результаты</a>
-                    <a class="navbar-links__link" href="contacts.html">Контакты</a>
+                    <a class="navbar-links__link" href="index.html">
+                        <div class="lng-main">
+                            Главная
+                        </div>
+                </a>
+                <a class="navbar-links__link" href="questDescription.html">
+                    <div class="lng-project">
+                        О проекте и партнерах
+                    </div>   
+                </a>
+                <a class="navbar-links__link" href="results.html">
+                    <div class="lng-results">
+                            Результаты
+                    </div>
+                  
+                </a>
+                <a class="navbar-links__link" href="contacts.html">
+                    <div class="lng-contacts">  
+                            Контакты
+                    </div>
+                </a>
                 </div>
             </div>
         </div>
@@ -101,7 +118,10 @@
     </div>
     <div class="footer">
         <div class="footer-text">
-           <p>Связаться с нами</p>
+            <div class="lng-contactUs">
+                Связаться с нами
+            </div>
+         
         </div>
         <div class="container">
             <div class="header-inner">
@@ -123,5 +143,7 @@
             </div>
     </div>
 </div> 
+<script src ="lang.js"></script>
+<script src ="app.js"></script>
 </body>
 </html>
