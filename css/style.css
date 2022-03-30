@@ -13,9 +13,7 @@ body {
 }
 
 /* header*/
-.wrapper{
-    background: url(./img/sky.jpeg);
-}
+
 .header {
     width: 100%;
     position: relative;
