@@ -9,10 +9,13 @@ body {
    font-size: 15px;
    line-height: 1.6;
    color: #333;
+   
 }
 
 /* header*/
-
+.wrapper{
+    background: url(./img/sky.jpeg);
+}
 .header {
     width: 100%;
     position: relative;
